@@ -9,8 +9,9 @@ In today's lab, we'll be creating a responsive UI for a simple drum pad app usin
 
 ![alt text](/README-images/overview.gif)
 
-To get started, first clone this repository onto your own computer
-`git clone https://github.com/iosdecal/ios-decal-lab2`
+To get started, first clone this repository onto your own computer:
+	
+	git clone https://github.com/iosdecal/ios-decal-lab2
 
 Open the file `Drummer.xcodeproj` to start the lab.
 
@@ -36,9 +37,9 @@ Once you open your storyboard file, drag one 'Button' out from the `Object libra
 ![alt text](/README-images/part2-1.png)
 
 
-You can edit how the button looks by open the `Attributes Inspector`, which can be found in the Utilities sidebar to the left side of the screen. Feel free to customize the button as much as you want, but at minimum, change out the background color so that the buttons are easy to see. 
+You can edit how the button looks by opening the `Attributes Inspector`, which can be found in the Utilities sidebar to the right side of the screen. Feel free to customize the button as much as you want, but at minimum, change out the background color so that the buttons are easy to see. 
 
-**Once you complete one button, create 6 others, and add them to your view in the following arrangement.** Since we want each button to play a unique sound, **give each button a unique integer tag from 0 to 7 (you can change a button's tag value using the Attributes Inspector**)
+**Once you complete one button, create 6 others, and add them to your view in the following arrangement.** Since we want each button to play a unique sound, **give each button a unique integer tag from 0 to 6 (you can change a button's tag value using the Attributes Inspector**)
 
 ![alt text](/README-images/part2-2.png)
 
@@ -46,7 +47,7 @@ You can edit how the button looks by open the `Attributes Inspector`, which can 
 Before we start adding constraints, let's add two more UI elements.
 **Add one Label and one Segmented Control to the bottom of your view**. These can both be found in the Object Library. We'll use these to switch between drum kits (different drum kits will have different sound files associated with them).
 
-To clarify what the segmented control will be used for **Edit your UI Label to display "Drum Kit Type", and change the values of your Segmented Control to "Acoustic" and "Electronic"**
+To clarify what the segmented control will be used for, **edit your UI Label to display "Drum Kit Type", and change the values of your Segmented Control to "Acoustic" and "Electronic"**
 
 Your view should now look something like this: 
 ![alt text](/README-images/part2-3.png)
