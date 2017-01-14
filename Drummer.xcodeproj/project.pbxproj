@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C9C24E41E29B3D600D962E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C24E31E29B3D600D962E2 /* Default-568h@2x.png */; };
 		6CAB23901E29AF7100BA9DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB238F1E29AF7100BA9DD3 /* AppDelegate.swift */; };
 		6CAB23951E29AF7100BA9DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23931E29AF7100BA9DD3 /* Main.storyboard */; };
 		6CAB23971E29AF7100BA9DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23961E29AF7100BA9DD3 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C9C24E31E29B3D600D962E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6CAB238C1E29AF7100BA9DD3 /* Drummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAB238F1E29AF7100BA9DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CAB23941E29AF7100BA9DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		6CAB23831E29AF7100BA9DD3 = {
 			isa = PBXGroup;
 			children = (
+				6C9C24E31E29B3D600D962E2 /* Default-568h@2x.png */,
 				6CAB238E1E29AF7100BA9DD3 /* Drummer */,
 				6CAB238D1E29AF7100BA9DD3 /* Products */,
 			);
@@ -229,6 +232,7 @@
 				6CAB23BD1E29B05200BA9DD3 /* drumkit1-1.wav in Resources */,
 				6CAB23B61E29B05200BA9DD3 /* drumkit0-1.wav in Resources */,
 				6CAB23B81E29B05200BA9DD3 /* drumkit0-3.wav in Resources */,
+				6C9C24E41E29B3D600D962E2 /* Default-568h@2x.png in Resources */,
 				6CAB23BE1E29B05200BA9DD3 /* drumkit1-2.wav in Resources */,
 				6CAB23C01E29B05200BA9DD3 /* drumkit1-4.wav in Resources */,
 				6CAB23971E29AF7100BA9DD3 /* Assets.xcassets in Resources */,
@@ -403,6 +407,7 @@
 				6CAB23A01E29AF7100BA9DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
