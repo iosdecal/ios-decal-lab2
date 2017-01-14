@@ -1,9 +1,13 @@
 # iOS DeCal - Lab 2 (AutoLayout) #
 
+## Due Date ##
+Tuesday, February 14th at 11:59 pm 
+
+## Overview ##
+
 In today's lab, we'll be creating a responsive UI for a simple drum pad app using AutoLayout. 
 
 ![alt text](/README-images/overview.gif)
-
 
 To get started, first clone this repository onto your own computer
 `git clone https://github.com/iosdecal/ios-decal-lab2`
