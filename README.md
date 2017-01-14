@@ -75,9 +75,7 @@ To refresh your memory , you can create constraints in Storyboard by first click
 
 You are free to customize your UI however you'd like, as long as the constraint requirements listed above are satisfied.
 
-**If you're stuck at this step and want a more detailed walkthrough, you can find a step-by-step guide of adding constraints for this lab [here][id].**
-
-[id]: https://github.com/paigeplan/lab2-autolayout-guide  "AutoLayout Guide"
+**If you're stuck at this step and want a more detailed walkthrough, you can find a step-by-step guide of adding constraints for this lab [here](https://github.com/paigeplan/lab2-autolayout-guide)**
 
 ## Part 4 - Connecting the View to the Model via a ViewController ##
 
@@ -132,9 +130,7 @@ If you implemented the method correctly, tapping on the Segmented Control in you
 
 ## Grading ##
 
-You have the option to either be checked off by a TA or instructor during lab to receive your grade immediately, or submit your files to [Gradescope][id] to be graded later.
-
-[id]: https://gradescope.com/courses/5482/assignments/18748/ "Gradescope link"
+You have the option to either be checked off by a TA or instructor during lab to receive your grade immediately, or submit your files to [Gradescope](https://gradescope.com/courses/5482/assignments/18748/) to be graded later.
 
 If you are submitting via Gradescope, you will need to submit a zip folder of all of your project files (compress and submit the folder you cloned from GitHub).
 
