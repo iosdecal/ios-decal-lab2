@@ -22,7 +22,7 @@ Once you have opened the project in Xcode, notice the files present in the Navig
 We have provided the following files for you to use. 
 
 1. `Drumkit.swift` in the `Model` folder - this file contains the "brains" of our app, including the filenames for the audio files that we'll be using, as well as a method for playing these audio files.
-2.`DrummerViewController.swift` in the `Controller` folder - this file contains the ViewController class that will connect our View created in Interface Builder to our Model. You will be adding code to this file in this lab.
+2. `DrummerViewController.swift` in the `Controller` folder - this file contains the ViewController class that will connect our View created in Interface Builder to our Model. You will be adding code to this file in this lab.
 3. `Main.storyboard` in the `View` folder - this is where you will be creating your UI elements (buttons, labels, etc) and AutoLayout Constraints. This file is automatically created for you each time you start a new Xcode project.
 4. `Assets.xcassets` in the `View` folder - contains all of the images used in the app (we have only included app icon images, but if you'd like to add your own images to customize the app, add them here). This is another file that is automatically created for you each time you create a new Xcode project.
 5. `Supporting Files` - contains all the audio clips we'll be using, as well as some other files we won't be using in today's lab (Ask a lab assistant if you want to learn about them!)
