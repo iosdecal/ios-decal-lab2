@@ -87,7 +87,7 @@ Now we can start connecting the UI elements we created in our Storyboard to our 
 
 **Open the Assistant Editor so that `Main.storyboard` and `DrummerViewController.swift` are both open.** "DrummerViewController" is the custom controller class associated with the view in `Main.storyboard`. Usually, you will have to set each of your ViewController's custom classes in the Identity Inspector in Interface Builder on your own, but we have done this step for you.
 
-Since we wan't our drum pad buttons to play an audio clip when pressed, we'll want to create an *action* in our ViewController for each button.
+Since we wan't our drum pad buttons to play an audio clip when pressed, we'll want to create an *action* in our ViewController that will be called each time the user taps a button.
 
 To do this, **highlight one of the buttons in your Storyboard, then Control + Drag from them into `DrummerViewController.swift`. The Connection should be an *Action*, the sender type should be set to *UIButton*, and the function name should be set to "drumButtonWasPressed"** (see image below).
 
