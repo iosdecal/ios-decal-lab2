@@ -89,14 +89,17 @@ Now we can start connecting the UI elements we created in our Storyboard to our 
 
 Since we wan't our drum pad buttons to play an audio clip when pressed, we'll want to create an *action* in our ViewController for each button.
 
-To do this, **highlight all 7 buttons in your Storyboard, then Control + Drag from them into `DrummerViewController.swift`. The Connection should be an *Action*, the sender type should be set to *UIButton*, and the function name should be set to "drumButtonWasPressed"** (see image below).
+To do this, **highlight one of the buttons in your Storyboard, then Control + Drag from them into `DrummerViewController.swift`. The Connection should be an *Action*, the sender type should be set to *UIButton*, and the function name should be set to "drumButtonWasPressed"** (see image below).
 
 ![alt text](/README-images/part4-2.png)
 
-To check that all your buttons were successfully connected to the IBAction, hover over the small circle next to "drumButtonWasPressed" in DrummerViewController.swift. All 7 buttons should appear highlighted in your Storyboard. If they aren't all highlighted, **click the small icon next to your IBAction "drumButtonWasPressed", and drag from it to each unhighlighted button to connect them** (see image below).
+Since we want all of our buttons to activate this method (not just this one button we control + dragged from), **click the small icon next to your IBAction "drumButtonWasPressed", and drag from it to each of the other buttons to connect them** (see image below).
 
 ![alt text](/README-images/part4-3.png)
 
+To check that all your buttons were successfully connected to the IBAction, hover over the small circle next to "drumButtonWasPressed" in DrummerViewController.swift. All 7 buttons should appear highlighted in your Storyboard.
+
+![alt text](/README-images/part4-4.png)
 
 ### b. Adding Sound to our App ###
 
