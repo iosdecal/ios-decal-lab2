@@ -95,7 +95,7 @@ To do this, **highlight one of the buttons in your Storyboard, then Control + Dr
 
 Since we want all of our buttons to activate this method (not just this one button we control + dragged from), **click the small icon next to your IBAction "drumButtonWasPressed", and drag from it to each of the other buttons to connect them** (see image below).
 
-![alt text](/README-images/part4-3.png)
+![alt text](/README-images/corrected.png)
 
 To check that all your buttons were successfully connected to the IBAction, hover over the small circle next to "drumButtonWasPressed" in DrummerViewController.swift. All 7 buttons should appear highlighted in your Storyboard.
 
