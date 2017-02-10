@@ -135,9 +135,12 @@ If you implemented the method correctly, tapping on the Segmented Control in you
 
 Once you have finished, please submit your files to [Gradescope](https://gradescope.com/courses/5482) You will need to submit files EVEN if you are being checked off, since Gradescope does not support submission-less grading at the moment. You will need to submit a zip folder of all of your project files (compress and submit the folder you cloned from GitHub).
 
+If your in the 310 Soda lab, and would like to get checked off, fill out this [Google Form](https://goo.gl/forms/fouhU4haCXUINsw92)
+
 We will grade your work based off the following criteria (all requirements must be satisfied to receive credit).
 
 1. All buttons and UI elements must dynamically change as shown in the preview gif for any device size and orientation (use the image in part 3 as a guide for how your app should look).
 2. Tapping on a drum button must play a sound (your app needs to work!)
 
 If both requirements are satisfied, congratulations on finishing Lab 2!  :) 
+
