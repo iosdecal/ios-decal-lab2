@@ -100,15 +100,11 @@ To check that all your buttons were successfully connected to the IBAction, hove
 
 Now we have an action method that will be called any time a user taps one of the drum buttons. As of now, nothing will happen. Since we want a drum sound to be played each time a user taps a button, we'll need to add some code to this action method.
 
-Luckily for you, this code has been implemented already in `Drummer.swift`, so simply **add the following code to your function "drumButtonWasPressed".**
-
 	@IBAction func drumButtonWasPressed(_ sender: UIButton) {
-        currentDrumKit?.playDrumSound(forDrumWithTag: sender.tag)
+           //TODO: play the drum sound corresponding to your button's tag
     }
 
-This line of code calls the method "playDrumSound" for the currently selected drum kit. Each drum button will play a different sound based off of the button's tag number, which is accessed using "sender.tag". (Open up `DrumKit.swift` if you want more information). 
-
-**Run your application and try pressing the drum buttons. Each button should play a different sound clip.** If all buttons play the same sound clip, make sure you set the "Tag" property for each button correctly in Part 2. 
+**Once you've completed this step, each button should play a different sound clip.** If all buttons play the same sound clip, make sure you set the "Tag" property for each button correctly in Part 2. 
 
 
 ### c. Adding Option to Switch between Drum Kits ###
