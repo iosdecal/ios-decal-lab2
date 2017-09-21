@@ -111,7 +111,7 @@ This line of code calls the method "playDrumSound" for the currently selected dr
 **Run your application and try pressing the drum buttons. Each button should play a different sound clip.** If all buttons play the same sound clip, make sure you set the "Tag" property for each button correctly in Part 2. 
 
 
-### c. Adding Option to Switch between Drum Kits (OPTIONAL) ###
+### c. Adding Option to Switch between Drum Kits ###
 
 Right now, we can't switch between drum kits (tapping on the segmented control doesn't change anything). To fix this **create an IBAction in DrummerViewController.swift for the Segmented Control in the same way as done in Part 4a. Set the sender type to UISegmentedControl** You can name the method whatever you like, but we'll call it "drumKitWasChanged".
 
