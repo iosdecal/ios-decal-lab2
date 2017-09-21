@@ -1,8 +1,5 @@
 # iOS DeCal - Lab 2 (AutoLayout) #
 
-## Due Date ##
-Tuesday, February 14th at 11:59 pm 
-
 ## Overview ##
 
 In today's lab, we'll be creating a responsive UI for a simple drum pad app using AutoLayout. 
@@ -75,8 +72,6 @@ To refresh your memory , you can create constraints in Storyboard by first click
 
 You are free to customize your UI however you'd like, as long as the constraint requirements listed above are satisfied.
 
-**If you're stuck at this step and want a more detailed walkthrough, you can find a step-by-step guide of adding constraints for this lab [here](https://github.com/paigeplan/lab2-autolayout-guide)**
-
 ## Part 4 - Connecting the View to the Model via a ViewController ##
 
 Now that you've finished the UI, we can now connect our View to our Model. (Note: this portion of the lab is much shorter - you're almost done!)
@@ -133,18 +128,10 @@ If you implemented the method correctly, tapping on the Segmented Control in you
 
 ## Grading ##
 
-Once you have finished, please submit your files to [Gradescope](https://gradescope.com/courses/5482) You will need to submit files EVEN if you are being checked off, since Gradescope does not support submission-less grading at the moment. You will need to submit a zip folder of all of your project files (compress and submit the folder you cloned from GitHub).
-
-If you've finished during lab and need to get checked off, please fill out one of the following forms (based off what lab you are in): 
-
-- [310 Soda Lab Lab Check-Off Form](https://goo.gl/forms/fouhU4haCXUINsw92)
-
-- [220 Jacobs Lab Lab Check-Off Form](https://goo.gl/forms/jBqxptCZXex1QAGs1)
+Once you've finished the lab, you can check-off using this form https://goo.gl/forms/OFCeJhQWSZ7Qhaxi2. If you weren't able to finish before 8pm, make sure to let a TA know you attended (do not fill out the google form), and be sure to check-off next week at the beginning of lab.
 
 We will grade your work based off the following criteria (all requirements must be satisfied to receive credit).
 
 1. All buttons and UI elements must dynamically change as shown in the preview gif for any device size and orientation (use the image in part 3 as a guide for how your app should look).
 2. Tapping on a drum button must play a sound (your app needs to work!)
-
-If both requirements are satisfied, congratulations on finishing Lab 2!  :) 
 
