@@ -36,7 +36,7 @@ Once you open your storyboard file, drag one 'Button' out from the `Object libra
 
 You can edit how the button looks by opening the `Attributes Inspector`, which can be found in the Utilities sidebar to the right side of the screen. Feel free to customize the button as much as you want, but at minimum, change out the background color so that the buttons are easy to see. 
 
-**Once you complete one button, create 6 others, and add them to your view in the following arrangement.** Since we want each button to play a unique sound, **give each button a unique integer tag from 0 to 6 (you can change a button's tag value using the Attributes Inspector**)
+**Once you complete one button, create 6 others, and add them to your view in the following arrangement.** Since we want each button to play a unique sound, **give each button a unique integer tag from 0 to 6 (you can change a button's tag value using the `Attributes Inspector`**)
 
 ![alt text](/README-images/part2-2.png)
 
@@ -124,7 +124,7 @@ If you implemented the method correctly, tapping on the Segmented Control in you
 
 ## Grading ##
 
-Once you've finished the lab, you can check-off using this form https://goo.gl/forms/OFCeJhQWSZ7Qhaxi2. If you weren't able to finish before 8pm, make sure to let a TA know you attended (do not fill out the google form), and be sure to check-off next week at the beginning of lab.
+Once you've finished the lab, you can check-off using this form https://goo.gl/forms/2tdeDVlWMfREpNV02. If you weren't able to finish before 8pm, make sure to fill in the keyword question, and be sure to check-off next week at the beginning of lab.
 
 We will grade your work based off the following criteria (all requirements must be satisfied to receive credit).
 
