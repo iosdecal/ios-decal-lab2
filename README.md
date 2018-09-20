@@ -83,6 +83,7 @@ Now that you've finished the UI, we can now connect our View to our Model. (Note
 Now we can start connecting the UI elements we created in our Storyboard to our ViewController file so we can edit them programmatically. 
 
 **Open the Assistant Editor (pictured below) so that `Main.storyboard` and `DrummerViewController.swift` are both open.** 
+
 ![alt text](/README-images/assistant-editor.png)
 
 "DrummerViewController" is the custom controller class associated with the view in `Main.storyboard`. Usually, you will have to set each of your ViewController's custom classes in the Identity Inspector in Interface Builder on your own, but we have done this step for you.
