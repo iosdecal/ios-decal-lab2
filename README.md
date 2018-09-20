@@ -104,7 +104,9 @@ To check that all your buttons were successfully connected to the IBAction, hove
 
 ### b. Adding Sound to our App ###
 
-Now we have an action method that will be called any time a user taps one of the drum buttons. As of now, nothing will happen. Since we want a drum sound to be played each time a user taps a button, we'll need to add some code to this action method.
+Now we have an action method that will be called any time a user taps one of the drum buttons. The first thing to notice here is that the `sender` object being sent as an input to our function is of type `Any`. In order to access the "tag" attribute of our UI Button, change `sender` to have the type `UIButton`. Now, you can access what tag attribute the button has by referencing `sender.tag`. 
+
+As of now, nothing will happen. Since we want a drum sound to be played each time a user taps a button, we'll need to add some code to this action method.
 
 	@IBAction func drumButtonWasPressed(_ sender: UIButton) {
            //TODO: play the drum sound corresponding to your button's tag
