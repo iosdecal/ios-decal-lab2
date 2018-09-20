@@ -52,7 +52,7 @@ Your view should now look something like this:
 ![alt text](/README-images/part2-3.png)
 -->
 
-Try building your project now by pressing `Command + B` or the "Run" button at the top left corner of Xcode. You'll see that the UI looks different than it does in the Interface builder, and that there is a lot of extra white space. You can rotate the simulator by pressing `Hardware >  Rotate` to reveal some more UI issues. To fix these problems, we will use AutoLayout!
+Try building your project now by pressing `Command + R` or the "Run" button at the top left corner of Xcode. You'll see that the UI looks different than it does in the Interface builder, and that there is a lot of extra white space. You can rotate the simulator by pressing `Hardware >  Rotate` to reveal some more UI issues. To fix these problems, we will use AutoLayout!
 
 ## Part 3 - Creating AutoLayout Constraints ##
 
