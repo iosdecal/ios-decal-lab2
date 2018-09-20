@@ -11,32 +11,16 @@ import Foundation
 /// Model class for drumkits (you will not need to edit this file, but it will help to read through it) 
 class DrumKit {
     
-    /// The ID number to indicate which drum kit the user is playing
-    private var drumKitID: Int
-    
-    /// Filenames for the available drum sounds for drum kit 0
-    private static let drumKit0AudioFileNames = ["drumkit0-0.wav", "drumkit0-1.wav", "drumkit0-2.wav", "drumkit0-3.wav", "drumkit0-4.wav", "drumkit0-5.wav", "drumkit0-kick.wav"]
-    
-    /// Filenames for the available drum sounds for drum kit 1
-    private static let drumKit1AudioFileNames = ["drumkit1-0.wav", "drumkit1-1.wav", "drumkit1-2.wav", "drumkit1-3.wav", "drumkit1-4.wav", "drumkit1-5.wav", "drumkit1-kick.wav"]
-    
-    
-    init(drumKitID: Int) {
-        self.drumKitID = drumKitID
-    }
+    /// Filenames for the available drum sounds
+    private static let drumKitAudioFileNames = ["drumkit-0.wav", "drumkit-1.wav", "drumkit-2.wav", "drumkit-3.wav", "drumkit-4.wav", "drumkit-5.wav", "drumkit-kick.wav"]
+
+
 
     /// Plays the audio file for drum associated with the given tag
     ///
     /// - Parameter tag: The tag of the drum button pressed
     func playDrumSound(forDrumWithTag tag: Int) {
-        switch drumKitID {
-            case 0:
-                SystemSoundID.playSound(withFilename: DrumKit.drumKit0AudioFileNames[tag])
-            case 1:
-                SystemSoundID.playSound(withFilename: DrumKit.drumKit1AudioFileNames[tag])
-            default:
-                print("Error - drum kit \(drumKitID) does not exist.")
-            }
+            SystemSoundID.playSound(withFilename: DrumKit.drumKitAudioFileNames[tag])
     }
 }
 

@@ -7,47 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30DE261421531DB100311C92 /* drumkit-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30DE260D21531DB100311C92 /* drumkit-5.wav */; };
+		30DE261521531DB100311C92 /* drumkit-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30DE260E21531DB100311C92 /* drumkit-1.wav */; };
+		30DE261621531DB100311C92 /* drumkit-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30DE260F21531DB100311C92 /* drumkit-2.wav */; };
+		30DE261721531DB100311C92 /* drumkit-kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30DE261021531DB100311C92 /* drumkit-kick.wav */; };
+		30DE261821531DB100311C92 /* drumkit-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30DE261121531DB100311C92 /* drumkit-0.wav */; };
+		30DE261921531DB100311C92 /* drumkit-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30DE261221531DB100311C92 /* drumkit-3.wav */; };
+		30DE261A21531DB100311C92 /* drumkit-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30DE261321531DB100311C92 /* drumkit-4.wav */; };
 		6CAB23901E29AF7100BA9DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB238F1E29AF7100BA9DD3 /* AppDelegate.swift */; };
 		6CAB23951E29AF7100BA9DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23931E29AF7100BA9DD3 /* Main.storyboard */; };
 		6CAB23971E29AF7100BA9DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23961E29AF7100BA9DD3 /* Assets.xcassets */; };
-		6CAB23B51E29B05200BA9DD3 /* drumkit0-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23A61E29B05200BA9DD3 /* drumkit0-0.wav */; };
-		6CAB23B61E29B05200BA9DD3 /* drumkit0-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23A71E29B05200BA9DD3 /* drumkit0-1.wav */; };
-		6CAB23B71E29B05200BA9DD3 /* drumkit0-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23A81E29B05200BA9DD3 /* drumkit0-2.wav */; };
-		6CAB23B81E29B05200BA9DD3 /* drumkit0-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23A91E29B05200BA9DD3 /* drumkit0-3.wav */; };
-		6CAB23B91E29B05200BA9DD3 /* drumkit0-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23AA1E29B05200BA9DD3 /* drumkit0-4.wav */; };
-		6CAB23BA1E29B05200BA9DD3 /* drumkit0-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23AB1E29B05200BA9DD3 /* drumkit0-5.wav */; };
-		6CAB23BB1E29B05200BA9DD3 /* drumkit0-kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23AC1E29B05200BA9DD3 /* drumkit0-kick.wav */; };
-		6CAB23BC1E29B05200BA9DD3 /* drumkit1-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23AE1E29B05200BA9DD3 /* drumkit1-0.wav */; };
-		6CAB23BD1E29B05200BA9DD3 /* drumkit1-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23AF1E29B05200BA9DD3 /* drumkit1-1.wav */; };
-		6CAB23BE1E29B05200BA9DD3 /* drumkit1-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23B01E29B05200BA9DD3 /* drumkit1-2.wav */; };
-		6CAB23BF1E29B05200BA9DD3 /* drumkit1-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23B11E29B05200BA9DD3 /* drumkit1-3.wav */; };
-		6CAB23C01E29B05200BA9DD3 /* drumkit1-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23B21E29B05200BA9DD3 /* drumkit1-4.wav */; };
-		6CAB23C11E29B05200BA9DD3 /* drumkit1-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23B31E29B05200BA9DD3 /* drumkit1-5.wav */; };
-		6CAB23C21E29B05200BA9DD3 /* drumkit1-kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB23B41E29B05200BA9DD3 /* drumkit1-kick.wav */; };
 		6CAB23C81E29B09000BA9DD3 /* DrumKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB23C71E29B09000BA9DD3 /* DrumKit.swift */; };
 		6CAB23CA1E29B0B500BA9DD3 /* DrummerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB23C91E29B0B500BA9DD3 /* DrummerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30DE260D21531DB100311C92 /* drumkit-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-5.wav"; sourceTree = "<group>"; };
+		30DE260E21531DB100311C92 /* drumkit-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-1.wav"; sourceTree = "<group>"; };
+		30DE260F21531DB100311C92 /* drumkit-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-2.wav"; sourceTree = "<group>"; };
+		30DE261021531DB100311C92 /* drumkit-kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-kick.wav"; sourceTree = "<group>"; };
+		30DE261121531DB100311C92 /* drumkit-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-0.wav"; sourceTree = "<group>"; };
+		30DE261221531DB100311C92 /* drumkit-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-3.wav"; sourceTree = "<group>"; };
+		30DE261321531DB100311C92 /* drumkit-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-4.wav"; sourceTree = "<group>"; };
 		6CAB238C1E29AF7100BA9DD3 /* Drummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAB238F1E29AF7100BA9DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CAB23941E29AF7100BA9DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CAB23961E29AF7100BA9DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CAB239B1E29AF7100BA9DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CAB23A61E29B05200BA9DD3 /* drumkit0-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit0-0.wav"; sourceTree = "<group>"; };
-		6CAB23A71E29B05200BA9DD3 /* drumkit0-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit0-1.wav"; sourceTree = "<group>"; };
-		6CAB23A81E29B05200BA9DD3 /* drumkit0-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit0-2.wav"; sourceTree = "<group>"; };
-		6CAB23A91E29B05200BA9DD3 /* drumkit0-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit0-3.wav"; sourceTree = "<group>"; };
-		6CAB23AA1E29B05200BA9DD3 /* drumkit0-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit0-4.wav"; sourceTree = "<group>"; };
-		6CAB23AB1E29B05200BA9DD3 /* drumkit0-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit0-5.wav"; sourceTree = "<group>"; };
-		6CAB23AC1E29B05200BA9DD3 /* drumkit0-kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit0-kick.wav"; sourceTree = "<group>"; };
-		6CAB23AE1E29B05200BA9DD3 /* drumkit1-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit1-0.wav"; sourceTree = "<group>"; };
-		6CAB23AF1E29B05200BA9DD3 /* drumkit1-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit1-1.wav"; sourceTree = "<group>"; };
-		6CAB23B01E29B05200BA9DD3 /* drumkit1-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit1-2.wav"; sourceTree = "<group>"; };
-		6CAB23B11E29B05200BA9DD3 /* drumkit1-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit1-3.wav"; sourceTree = "<group>"; };
-		6CAB23B21E29B05200BA9DD3 /* drumkit1-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit1-4.wav"; sourceTree = "<group>"; };
-		6CAB23B31E29B05200BA9DD3 /* drumkit1-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit1-5.wav"; sourceTree = "<group>"; };
-		6CAB23B41E29B05200BA9DD3 /* drumkit1-kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit1-kick.wav"; sourceTree = "<group>"; };
 		6CAB23C71E29B09000BA9DD3 /* DrumKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumKit.swift; sourceTree = "<group>"; };
 		6CAB23C91E29B0B500BA9DD3 /* DrummerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrummerViewController.swift; path = Controller/DrummerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,38 +89,15 @@
 		6CAB23A41E29B05200BA9DD3 /* Audio Files */ = {
 			isa = PBXGroup;
 			children = (
-				6CAB23A51E29B05200BA9DD3 /* drum kit 0 */,
-				6CAB23AD1E29B05200BA9DD3 /* drum kit 1 */,
+				30DE261121531DB100311C92 /* drumkit-0.wav */,
+				30DE260E21531DB100311C92 /* drumkit-1.wav */,
+				30DE260F21531DB100311C92 /* drumkit-2.wav */,
+				30DE261221531DB100311C92 /* drumkit-3.wav */,
+				30DE261321531DB100311C92 /* drumkit-4.wav */,
+				30DE260D21531DB100311C92 /* drumkit-5.wav */,
+				30DE261021531DB100311C92 /* drumkit-kick.wav */,
 			);
 			path = "Audio Files";
-			sourceTree = "<group>";
-		};
-		6CAB23A51E29B05200BA9DD3 /* drum kit 0 */ = {
-			isa = PBXGroup;
-			children = (
-				6CAB23A61E29B05200BA9DD3 /* drumkit0-0.wav */,
-				6CAB23A71E29B05200BA9DD3 /* drumkit0-1.wav */,
-				6CAB23A81E29B05200BA9DD3 /* drumkit0-2.wav */,
-				6CAB23A91E29B05200BA9DD3 /* drumkit0-3.wav */,
-				6CAB23AA1E29B05200BA9DD3 /* drumkit0-4.wav */,
-				6CAB23AB1E29B05200BA9DD3 /* drumkit0-5.wav */,
-				6CAB23AC1E29B05200BA9DD3 /* drumkit0-kick.wav */,
-			);
-			path = "drum kit 0";
-			sourceTree = "<group>";
-		};
-		6CAB23AD1E29B05200BA9DD3 /* drum kit 1 */ = {
-			isa = PBXGroup;
-			children = (
-				6CAB23AE1E29B05200BA9DD3 /* drumkit1-0.wav */,
-				6CAB23AF1E29B05200BA9DD3 /* drumkit1-1.wav */,
-				6CAB23B01E29B05200BA9DD3 /* drumkit1-2.wav */,
-				6CAB23B11E29B05200BA9DD3 /* drumkit1-3.wav */,
-				6CAB23B21E29B05200BA9DD3 /* drumkit1-4.wav */,
-				6CAB23B31E29B05200BA9DD3 /* drumkit1-5.wav */,
-				6CAB23B41E29B05200BA9DD3 /* drumkit1-kick.wav */,
-			);
-			path = "drum kit 1";
 			sourceTree = "<group>";
 		};
 		6CAB23C31E29B05900BA9DD3 /* View */ = {
@@ -189,7 +152,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = iosdecal;
 				TargetAttributes = {
 					6CAB238B1E29AF7100BA9DD3 = {
@@ -222,22 +185,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CAB23C11E29B05200BA9DD3 /* drumkit1-5.wav in Resources */,
-				6CAB23BC1E29B05200BA9DD3 /* drumkit1-0.wav in Resources */,
-				6CAB23BF1E29B05200BA9DD3 /* drumkit1-3.wav in Resources */,
-				6CAB23BB1E29B05200BA9DD3 /* drumkit0-kick.wav in Resources */,
-				6CAB23B71E29B05200BA9DD3 /* drumkit0-2.wav in Resources */,
-				6CAB23BD1E29B05200BA9DD3 /* drumkit1-1.wav in Resources */,
-				6CAB23B61E29B05200BA9DD3 /* drumkit0-1.wav in Resources */,
-				6CAB23B81E29B05200BA9DD3 /* drumkit0-3.wav in Resources */,
-				6CAB23BE1E29B05200BA9DD3 /* drumkit1-2.wav in Resources */,
-				6CAB23C01E29B05200BA9DD3 /* drumkit1-4.wav in Resources */,
+				30DE261A21531DB100311C92 /* drumkit-4.wav in Resources */,
+				30DE261421531DB100311C92 /* drumkit-5.wav in Resources */,
+				30DE261921531DB100311C92 /* drumkit-3.wav in Resources */,
+				30DE261621531DB100311C92 /* drumkit-2.wav in Resources */,
 				6CAB23971E29AF7100BA9DD3 /* Assets.xcassets in Resources */,
-				6CAB23BA1E29B05200BA9DD3 /* drumkit0-5.wav in Resources */,
 				6CAB23951E29AF7100BA9DD3 /* Main.storyboard in Resources */,
-				6CAB23C21E29B05200BA9DD3 /* drumkit1-kick.wav in Resources */,
-				6CAB23B51E29B05200BA9DD3 /* drumkit0-0.wav in Resources */,
-				6CAB23B91E29B05200BA9DD3 /* drumkit0-4.wav in Resources */,
+				30DE261521531DB100311C92 /* drumkit-1.wav in Resources */,
+				30DE261821531DB100311C92 /* drumkit-0.wav in Resources */,
+				30DE261721531DB100311C92 /* drumkit-kick.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +237,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -288,6 +245,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -337,6 +295,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -344,6 +303,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

@@ -6,7 +6,7 @@ In today's lab, we'll be creating a responsive UI for a simple drum pad app usin
 
 ![alt text](/README-images/overview.gif)
 
-To get started, first clone this repository onto your own computer:
+To get started, first download the lab zip file or clone this repository onto your own computer:
 	
 	git clone https://github.com/iosdecal/ios-decal-lab2
 
@@ -22,12 +22,12 @@ We have provided the following files for you to use.
 2. `DrummerViewController.swift` in the `Controller` folder - this file contains the ViewController class that will connect our View created in Interface Builder to our Model. You will be adding code to this file in this lab.
 3. `Main.storyboard` in the `View` folder - this is where you will be creating your UI elements (buttons, labels, etc) and AutoLayout Constraints. This file is automatically created for you each time you start a new Xcode project.
 4. `Assets.xcassets` in the `View` folder - contains all of the images used in the app (we have only included app icon images, but if you'd like to add your own images to customize the app, add them here). This is another file that is automatically created for you each time you create a new Xcode project.
-5. `Supporting Files` - contains all the audio clips we'll be using, as well as some other files we won't be using in today's lab (Ask a lab assistant if you want to learn about them!)
+5. `Supporting Files` - contains all the audio clips we'll be using, as well as some other files we won't be using in today's lab (Ask a TA if you want to learn about them!)
 
 Once you've become familiar with the files in our app, open Interface Builder (`Main.storyboard`). 
 
 ## Part 2 - Adding UI Elements to the View ##
-We have a total of 7 drum sounds per drum kit provided, so we'll need to create 7 UI Buttons in our storyboard. 
+We have a total of 7 drum sounds, so we'll need to create 7 UI Buttons in our storyboard. 
 
 Once you open your storyboard file, drag one 'Button' out from the `Object library` onto your empty View. 
 
@@ -40,6 +40,8 @@ You can edit how the button looks by opening the `Attributes Inspector`, which c
 
 ![alt text](/README-images/part2-2.png)
 
+<!---
+This part of lab has been taken out in Fall 2018 due to time constraints 
 
 Before we start adding constraints, let's add two more UI elements.
 **Add one Label and one Segmented Control to the bottom of your view**. These can both be found in the Object Library. We'll use these to switch between drum kits (different drum kits will have different sound files associated with them).
@@ -48,7 +50,7 @@ To clarify what the segmented control will be used for, **edit your UI Label to 
 
 Your view should now look something like this: 
 ![alt text](/README-images/part2-3.png)
-
+-->
 
 Try building your project now by pressing `Command + B` or the "Run" button at the top left corner of Xcode. You'll see that the UI looks different than it does in the Interface builder, and that there is a lot of extra white space. You can rotate the simulator by pressing `Hardware >  Rotate` to reveal some more UI issues. To fix these problems, we will use AutoLayout!
 
@@ -80,7 +82,10 @@ Now that you've finished the UI, we can now connect our View to our Model. (Note
 
 Now we can start connecting the UI elements we created in our Storyboard to our ViewController file so we can edit them programmatically. 
 
-**Open the Assistant Editor so that `Main.storyboard` and `DrummerViewController.swift` are both open.** "DrummerViewController" is the custom controller class associated with the view in `Main.storyboard`. Usually, you will have to set each of your ViewController's custom classes in the Identity Inspector in Interface Builder on your own, but we have done this step for you.
+**Open the Assistant Editor (pictured below) so that `Main.storyboard` and `DrummerViewController.swift` are both open.** 
+![alt text](/assistant-editor.png)
+
+"DrummerViewController" is the custom controller class associated with the view in `Main.storyboard`. Usually, you will have to set each of your ViewController's custom classes in the Identity Inspector in Interface Builder on your own, but we have done this step for you.
 
 Since we wan't our drum pad buttons to play an audio clip when pressed, we'll want to create an *action* in our ViewController that will be called each time the user taps a button.
 
@@ -106,7 +111,7 @@ Now we have an action method that will be called any time a user taps one of the
 
 **Once you've completed this step, each button should play a different sound clip.** If all buttons play the same sound clip, make sure you set the "Tag" property for each button correctly in Part 2. 
 
-
+<!---
 ### c. Adding Option to Switch between Drum Kits (optional) ###
 
 Right now, we can't switch between drum kits (tapping on the segmented control doesn't change anything). To fix this **create an IBAction in DrummerViewController.swift for the Segmented Control in the same way as done in Part 4a. Set the sender type to UISegmentedControl** You can name the method whatever you like, but we'll call it "drumKitWasChanged".
@@ -121,10 +126,10 @@ You should now have the following method in `DrummerViewController.swift`:
 **Fill in this method to allow the user to switch between drum kits by updating the "currentDrumKit" variable.** Hint: you'll want to use your UISegmentedControl property "selectedSegmentIndex", which you can access using "sender.selectedSegmentIndex"
 
 If you implemented the method correctly, tapping on the Segmented Control in your app should change the sound of each drum button.
-
+-->
 ## Grading ##
 
-Once you've finished the lab, you can check-off using this form https://goo.gl/forms/2tdeDVlWMfREpNV02. If you weren't able to finish before 8pm, make sure to fill in the keyword question, and be sure to check-off next week at the beginning of lab.
+Once you've finished the lab, you can check-off with one of the course staff. 
 
 We will grade your work based off the following criteria (all requirements must be satisfied to receive credit).
 
